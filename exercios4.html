@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perguntas Frequentes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        nav {
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        nav a {
+            margin-right: 15px;
+            text-decoration: none;
+            color: #0066cc;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        h1 {
+            color: #222;
+        }
+        details {
+            background: #fff;
+            margin-bottom: 15px;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        summary {
+            font-weight: bold;
+            cursor: pointer;
+            outline: none;
+            font-size: 1.1em;
+            color: #0066cc;
+        }
+        p {
+            margin-top: 10px;
+            margin-bottom: 0;
+            color: #444;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Menu de âncoras internas no topo -->
+    <nav>
+        <strong>Índice:</strong> 
+        <a href="#duvida1">Dúvida 1</a> | 
+        <a href="#duvida2">Dúvida 2</a>
+    </nav>
+
+    <h1>Perguntas Frequentes</h1>
+
+    <!-- Dúvida 1 -->
+    <details id="duvida1">
+        <summary>Qual a diferença entre HTML e CSS?</summary>
+        <p>O HTML estrutura o conteúdo da página, enquanto o CSS é responsável pelas cores, fontes e posicionamento visual.</p>
+    </details>
+
+    <!-- Dúvida 2 -->
+    <details id="duvida2">
+        <summary>O que são elementos vazios?</summary>
+        <p>São tags que não possuem fechamento porque não envolvem texto, como as tags img, hr e br.</p>
+    </details>
+
+</body>
+</html>
+
